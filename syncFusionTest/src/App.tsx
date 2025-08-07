@@ -19,21 +19,21 @@ function App() {
 
     <div>
       <GridComponent dataSource={data}>
-        <ColumnsDirective>
+      <ColumnsDirective>
           <ColumnDirective field='OrderID' width='100' textAlign="Right"/>
           <ColumnDirective field='CustomerID' width='100'/>
           <ColumnDirective field='EmployeeID' width='100' textAlign="Right"/>
           <ColumnDirective field='Freight' width='100' format="C2" textAlign="Right"/>
           <ColumnDirective field='OrderDate' width='100' format="yMd" textAlign="Right"/>
           <ColumnDirective field='ShipCountry' width='100'/>
-        </ColumnsDirective>
-      </GridComponent>
+      </ColumnsDirective>
+    </GridComponent>
       <div>
         <DatePickerComponent placeholder='Select a date' format='dd/MM/yyyy format' />
         <DatePickerComponent placeholder='Select a date' format='dd/MM/yyyy' value={new Date(2023, 9, 1)} />
         <DatePickerComponent placeholder='Select a date' format='dd/MM/yyyy' value={new Date(2023, 9, 15)} />
       </div>
-    </div>
+      </div>
     
     
 
