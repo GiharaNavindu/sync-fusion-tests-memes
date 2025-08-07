@@ -35,7 +35,7 @@ function App() {
       </div>
       </div>
     
-    
+    //Yes. Use the ~ sign instead of ^, since it is best practice to avoid any major version upgrade conflict, and it will bring the latest patch of the current version.
 
     
   );
