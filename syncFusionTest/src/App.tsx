@@ -20,6 +20,7 @@ function App() {
           <ColumnDirective field='CustomerID' width='100'/>
           <ColumnDirective field='EmployeeID' width='100' textAlign="Right"/>
           <ColumnDirective field='Freight' width='100' format="C2" textAlign="Right"/>
+          <ColumnDirective field='OrderDate' width='100' format="yMd" textAlign="Right"/>
           <ColumnDirective field='ShipCountry' width='100'/>
       </ColumnsDirective>
     </GridComponent>
